@@ -180,11 +180,6 @@ body {
     display: none;
 }
 
-/*Pauses the carousel on mouse hover*/
-.carousel:hover .group {
-    animation-play-state: paused;
-}
-
 /*For the group of images, 50 seconds to cycle*/
 .group {
     display: flex;
