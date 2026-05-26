@@ -223,7 +223,14 @@ body {
     margin: 8px 0;  
     text-align: left; 
 }
+
 @keyframes spin {
     from {translate: 0;}
     to {translate: -100%}
+}
+
+.food {
+    height: 300px;
+    width: 450px;
+    margin: 20px;
 }
