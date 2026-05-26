@@ -98,6 +98,18 @@ body {
     margin-bottom: 10px;
 }
 
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 16px;  
+}
+
+.contact-links img {
+    width: 75px;
+    height: 75px;      
+    object-fit: contain; 
+}
+
 .box .toggle {
     background: none;
     border: none;
@@ -120,7 +132,7 @@ body {
 }
 
 .text.show {
-    max-height: 500px;  /* Adjust based on your content - make it large enough */
+    max-height: 500px;  
     opacity: 1;
     margin-top: 15px;
 }
@@ -173,11 +185,11 @@ body {
 
 .card {
     flex: 0 0 auto;
-    width: 225px;      /* Adjust card width as needed */
-    height: 300px;     /* Adjust card height as needed */
-    background: #f0f0f0; /* Fallback background */
+    width: 225px;     
+    height: 300px;     
+    background: #f0f0f0; 
     border-radius: 8px;
-    overflow: hidden;  /* Ensures image respects border radius */
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -190,30 +202,26 @@ body {
     object-position: center;
     display: block;
     
-    /* HIGH DEFINITION PRESERVATION */
-    image-rendering: crisp-edges;      /* Preserves sharpness */
-    image-rendering: -webkit-optimize-contrast; /* Webkit optimization */
+    image-rendering: crisp-edges;  
+    image-rendering: -webkit-optimize-contrast;
     image-rendering: high-quality;
-    
-    /* Prevent compression artifacts */
-    transform: translateZ(0);           /* GPU acceleration */
+  
+    transform: translateZ(0);           
     backface-visibility: hidden;
-    
-    /* Ensure smooth but sharp scaling */
+   
     -webkit-font-smoothing: antialiased;
 }
 
 .records-list {
-    text-align: left;  /* Align text to the left */
-    padding-left: 20%; /* Add padding for bullet points */
+    text-align: left;  
+    padding-left: 20%; 
     margin: 0;
-    width: 100%;  /* Take full width of the box */
+    width: 100%;  
 }
 
-/* Optional: Style list items */
 .records-list li {
-    margin: 8px 0;  /* Add spacing between list items */
-    text-align: left;  /* Ensure each item is left-aligned */
+    margin: 8px 0;  
+    text-align: left; 
 }
 @keyframes spin {
     from {translate: 0;}
