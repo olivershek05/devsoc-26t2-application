@@ -172,7 +172,7 @@ body {
     width: 550px;
     border: 5px blue;
     display: flex;
-    overflow-x: auto
+    overflow-x: hidden;
 }
 
 /*Removes scrollbar from the carousel*/
